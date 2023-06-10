@@ -2,17 +2,18 @@ project:
   type: website
 
 website:
-  title: "blog_beta"
+  title: "Rodrigo Mariscal"
   navbar:
     right:
       - about.qmd
+      - personal_blog.qmd
       - icon: github
-        href: https://github.com/
+        href: https://github.com/rmariscal
       - icon: twitter
-        href: https://twitter.com
+        href: https://twitter.com/RodMariscal
 format:
   html:
-    theme: cosmo
+    theme: darkly
     css: styles.css
 
 editor: visual

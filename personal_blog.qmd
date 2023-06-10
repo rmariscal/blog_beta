@@ -1,8 +1,8 @@
 ---
-title: "About"
+title: "Personal Blog"
 image: profile.jpg
 about:
-  template: trestles
+  template: marquee
   links:
     - icon: twitter
       text: Twitter
@@ -14,5 +14,3 @@ about:
       text: Github
       href: https://github.com/rmariscal
 ---
-
-About this blog
