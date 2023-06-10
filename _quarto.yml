@@ -3,10 +3,20 @@ project:
 
 website:
   title: "Rodrigo Mariscal"
+  site-url: "http://rodmariscal.com/"
+  description: "My personal web page and blog"
+  page-footer:
+    left: "The views in this website are exclusively my own and do not necessary represent the views of my colleagues or the institution in which I work."
+    right:
+      - icon: github
+        href: https://github.com/rmariscal
+      - icon: twitter
+        href: hhttps://twitter.com/RodMariscal
+      - icon: envelope
+        href: mailto:milz.bea@gmail.com
   navbar:
     right:
       - about.qmd
-      - personal_blog.qmd
       - icon: github
         href: https://github.com/rmariscal
       - icon: twitter

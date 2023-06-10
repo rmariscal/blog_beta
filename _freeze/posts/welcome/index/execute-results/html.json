@@ -1,0 +1,14 @@
+{
+  "hash": "be173f87ceea5577770cade2f0c961b0",
+  "result": {
+    "markdown": "---\ntitle: \"Time Series in R: Quick Reference\"\nauthor: \"Rodrigo Mariscal\"\ndate: \"2018-06-26T21:12:36-00:00\"\ntags: [\"Time Series\"]\ncategories: [\"R\"]\nuse_math: yes\noutput: html_document\n---\n\n::: {.cell}\n\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

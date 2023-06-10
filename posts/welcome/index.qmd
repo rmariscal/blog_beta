@@ -1,12 +1,30 @@
 ---
-title: "Welcome To My Blog"
-author: "Tristan O'Malley"
-date: "2023-06-07"
-categories: [news]
+title: "Time Series in R: Quick Reference"
+author: "Rodrigo Mariscal"
+date: "2018-06-26T21:12:36-00:00"
+tags: ["Time Series"]
+categories: ["R"]
+use_math: yes
+output: html_document
 ---
 
-This is the first post in a Quarto blog. Welcome!
-
-![](thumbnail.jpg)
-
-Since this post doesn't specify an explicit `image`, the first image in the post will be used in the listing page of posts.
+```{r, echo = F, eval = T, message = F, warning = F}
+#------------------------------------------------------------------------------#
+# Load packages
+#------------------------------------------------------------------------------#
+library(quantmod)
+library(readxl)
+library(tis)
+library(dplyr)
+library(xts)
+library(zoo)
+#library(PerformanceAnalytics)
+library(ggplot2)
+library(ggthemes)
+library(dygraphs)
+library(plotly)
+#library(datasets)
+library(formatR)
+#library(brocks)
+library(knitr)
+```

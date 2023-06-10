@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Rodrigo Mariscal</title>
+<link>http://rodmariscal.com/index.html</link>
+<atom:link href="http://rodmariscal.com/index.xml" rel="self" type="application/rss+xml"/>
+<description>My personal web page and blog</description>
+<generator>quarto-1.3.361</generator>
+<lastBuildDate>Sat, 10 Jun 2023 05:00:00 GMT</lastBuildDate>
+<item>
+  <title>Post With Code</title>
+  <dc:creator>Harlow Malloc</dc:creator>
+  <link>http://rodmariscal.com/posts/post-with-code/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>This is a post with executable code.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span> <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span></span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 2</code></pre>
+</div>
+</div>
+
+
+
+ ]]></description>
+  <category>news</category>
+  <category>code</category>
+  <category>analysis</category>
+  <guid>http://rodmariscal.com/posts/post-with-code/index.html</guid>
+  <pubDate>Sat, 10 Jun 2023 05:00:00 GMT</pubDate>
+  <media:content url="http://rodmariscal.com/posts/post-with-code/image.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Time Series in R: Quick Reference</title>
+  <dc:creator>Rodrigo Mariscal</dc:creator>
+  <link>http://rodmariscal.com/posts/welcome/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+
+ ]]></description>
+  <category>R</category>
+  <guid>http://rodmariscal.com/posts/welcome/index.html</guid>
+  <pubDate>Tue, 26 Jun 2018 21:12:36 GMT</pubDate>
+</item>
+</channel>
+</rss>

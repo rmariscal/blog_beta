@@ -4,14 +4,14 @@
     "href": "index.html",
     "title": "Personal Web Page",
     "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nJun 10, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nJun 7, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "Post With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nJun 10, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nTime Series in R: Quick Reference\n\n\n\n\n\n\n\nR\n\n\n\n\n\n\n\n\n\n\n\nJun 26, 2018\n\n\nRodrigo Mariscal\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this blog"
+    "text": "I’m the head of economic planning unit at Mexico’s Ministry of Finance. Have worked at the Institute of International Finance, IMF’s Western Hemisphere Department, the Inter-American Development Bank, and the Central Bank of Mexico. I hold a M.A. in economics from El Colegio de Mexico and a B.A. degree in economics from the UNAM. My research focuses on macroeconomics, with emphasis on the credibility of inflation regimes in Latin America, sovereign debt restructurings, and commodity prices"
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -26,5 +26,26 @@
     "title": "Welcome To My Blog",
     "section": "",
     "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "About",
+    "section": "Experience",
+    "text": "Experience\n\nHead of Economic Planning Unit and Chief Economist (Feb 2022 – present) Secretaria de Hacienda y Credito Publico (Mexico’s Ministry of Finance), Economic Planning Unit and Office of the Chief Economist, Mexico City, Mexico.\nGeneral Director of Macroeconomic Analysis (Jan 2020 – Feb 2022) Secretaria de Hacienda y Credito Publico (Mexico’s Ministry of Finance), Economic Planning Unit and Office of the Chief Economist, Mexico City, Mexico.\nGeneral Director of Economic Planning (Jan 2019 – Dec 2019) Secretaria de Hacienda y Credito Publico (Mexico’s Ministry of Finance), Economic Planning Unit and Office of the Chief Economist, Mexico City, Mexico.\nSenior Research Analyst (May 2018 – December 2018) Institute of International Finance, Economic Research Department, Washington, D.C., United States.\nResearch Analyst (March 2014 – March 2018) International Monetary Fund, Western Hemisphere Department, Washington, D.C., United States.\nResearch Consultant (March 2011 - February 2014) Inter-American Development Bank, Research Department, Washington, D.C., United States.\nFinancial Researcher (March 2009 – February 2011) Central Bank of Mexico, Research Department, Directorate of Macroeconomic Analysis, Mexico City, Mexico."
+  },
+  {
+    "objectID": "about.html#publications",
+    "href": "about.html#publications",
+    "title": "About",
+    "section": "Publications",
+    "text": "Publications\n\nThe Price and Welfare Effects of The Value-Added Tax: Evidence from Mexico, with Alejandro M. Werner. IMF Working Paper, 18(240), 2018.\nCollateral Damage: Dollar Strength and Emerging Markets’ growth, with Pablo F. Druck and Nicolas E. Magud. The North American Journal of Economics and Finance, 43(January), 97–117, 2018. (working paper)\nHollowing Out: The Channels of Income Polarization in the United States, with Ali Alichi and Daniela Muhaj. IMF Working Paper, 17(244), 2017.\nOn the Credibility of Inflation Targeting Regimes in Latin America, with Andrew Powell and Pilar Tavella. Economia: Brookings Institution Press, 18(2), 2017. (working paper) (IDB working paper)\nWomen are Key for Future Growth: Evidence from Canada, with Bengt Petersson and Kotaro Ishi. IMF Working Paper, 17(166), 2017.\nAdvancing Financial Development in Latin America and the Caribbean, with Dyna Heng, Anna Ivanova, Uma Ramakrishnan, Joyce Cheng Wong. IMF, Regional Economic Outlook: Western Hemisphere, October 2015. (working paper)\nSovereign Defaults: Has the Current System Resulted in lasting (Re)solutions?, with Andrew Powell, Guido Sandleris, Pilar Tavella. Universidad Torcuato Di Tella Business School Working Papers, March 2015.\nCommodity Price Booms and Breaks: Detection, Magnitude and Implications for Developing Countries, with Andrew Powell. IDB Working Papers, No. IDB-WP-444, January 2014.\nForecasting Inflation Risks in Latin America, with Andrew Powell. IDB Technical Note, No. IDB-TN-403, June 2012.\nThe Evolution of Cooperation in a Psychological Environment. El Colegio de Mexico, Masters Dissertation, June 2008."
+  },
+  {
+    "objectID": "about.html#other-collaborations",
+    "href": "about.html#other-collaborations",
+    "title": "About",
+    "section": "Other collaborations",
+    "text": "Other collaborations\nMapping Income Polarization in the United States, IMF Blog (May 2018).\nGlobal GVAR Modelling Database, GVAR data (2013 Vintage)."
   }
 ]
