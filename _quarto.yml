@@ -15,6 +15,9 @@ website:
       - icon: envelope
         href: mailto:milz.bea@gmail.com
   navbar:
+    logo: img/AS_AD2.png
+    background: "dark"
+    foreground: "success"
     right:
       - about.qmd
       - icon: github
