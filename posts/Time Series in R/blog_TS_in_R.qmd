@@ -356,13 +356,13 @@ ggplot() +
 ```{r, echo = F, eval = T, message = F, warning = F, include=T, fig.width=7, fig.height=3, fig.align="center"}
 dygraph(xts.data[,c(1,2)], ylab="", main="Federal Funds Rate and PCE Inflation") %>%
   dyOptions(colors = c('#377eb8','#4daf4a'), digitsAfterDecimal="1", strokeWidth = 2, fillAlpha = 0.7) %>%
-  dyShading(from = "1969-06-1", to = "1970-12-1", color = "#d9d9d9") %>%
-  dyShading(from = "1973-12-1", to = "1975-03-1", color = "#d9d9d9") %>%
-  dyShading(from = "1979-06-1", to = "1980-06-1", color = "#d9d9d9") %>%
-  dyShading(from = "1981-06-1", to = "1982-06-1", color = "#d9d9d9") %>%
-  dyShading(from = "1989-12-1", to = "1991-03-1", color = "#d9d9d9") %>%
-  dyShading(from = "2001-03-1", to = "2001-09-1", color = "#d9d9d9") %>%
-  dyShading(from = "2007-12-1", to = "2009-06-1", color = "#d9d9d9") %>%
+  dyShading(from = "1969-06-1", to = "1970-12-1", color = "black") %>%
+  dyShading(from = "1973-12-1", to = "1975-03-1", color = "black") %>%
+  dyShading(from = "1979-06-1", to = "1980-06-1", color = "black") %>%
+  dyShading(from = "1981-06-1", to = "1982-06-1", color = "black") %>%
+  dyShading(from = "1989-12-1", to = "1991-03-1", color = "black") %>%
+  dyShading(from = "2001-03-1", to = "2001-09-1", color = "black") %>%
+  dyShading(from = "2007-12-1", to = "2009-06-1", color = "black") %>%
   dyAxis("y", valueRange = c(0, 21), label = "Percentage points", drawGrid = F) %>%
   dyAxis("x", valueRange = c("1960-01-01", "2018-01-01"), drawGrid = F, rangePad=2)
 ```
