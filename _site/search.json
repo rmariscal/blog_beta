@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Personal Web Page",
     "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nJun 10, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nTime Series in R: Quick Reference\n\n\n\n\n\n\n\nR\n\n\n\n\n\n\n\n\n\n\n\nJun 26, 2018\n\n\nRodrigo Mariscal\n\n\n\n\n\n\nNo matching items"
+    "text": "Time Series in R: Quick Reference\n\n\n\n\n\n\n\nR\n\n\n\n\n\n\n\n\n\n\n\nJun 26, 2018\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -47,5 +47,33 @@
     "title": "About",
     "section": "Other collaborations",
     "text": "Other collaborations\nMapping Income Polarization in the United States, IMF Blog (May 2018).\nGlobal GVAR Modelling Database, GVAR data (2013 Vintage)."
+  },
+  {
+    "objectID": "posts/Time Series in R/index.html",
+    "href": "posts/Time Series in R/index.html",
+    "title": "Time Series in R: Quick Reference",
+    "section": "",
+    "text": "These functions reads a file without a TS structure and then defines the TS object.\n\n# Read from a raw csv file\nraw.data &lt;- read.table(\"./data/data.us.csv\", sep = \",\", header = T)\n\n# When you have the dates in the original csv file\nxts.data &lt;- xts(raw.data, order.by = as.Date(raw.data$date, \"%m/%d/%Y\"))\n\n# When you don't have the dates in the original csv file but know the starting date\ndate = seq(as.Date(\"1960/3/1\"), by = \"3 month\", length.out = nrow(raw.data))\nxts.data &lt;- xts(raw.data[,-1], order.by = date, frequency = 3)\n\nThis function reads and declares the TS structure from the begining.\n\n# Note that this is a TS with a zoo structure\nts.data &lt;- read.zoo(\"./data/data.us.csv\", index.column = 1, sep = \",\", header = T, format = \"%m/%d/%Y\")\n# Or...\nts.data &lt;- ts(raw.data[,2:4], frequency = 4, start = c(1960,1))\n\n# One can convert the TS-zoo into a xts...\nxts.data &lt;- as.xts(ts.data)\n\n\n\n\n\nThere are two main ways to get data into R: get the data into Excel or a csv or download for an online source. There are built-in package to get the data directly for the web in a predefined format. The table below shows the most popular sources and packages that one can use.\n\n\n\nSources\nR-Package\nWeb Pages\n\n\n\n\nYahoo, FRED, Google, Onda\nquantmod\nLink\n\n\nInternational Monetary Fund (IMF)1\nIMFData or imfr\nLink\n\n\nWorld Bank’s WDI\nWDI\nLink\n\n\nOECD2\nrsdmx\nLink\n\n\nPenn World Tables\npwt\nLink\n\n\nInternational Labor Organization (ILO)\nrsdmx\nLink\n\n\n\nOne can use the getSymbols function with a previous search in the web pages and download directly into R.\n\ngetSymbols(\"GDPC1\", src = \"FRED\")\ngetSymbols(\"PCEPILFE\", src = \"FRED\")\ngetSymbols(\"FEDFUNDS\", src = \"FRED\")\n\nnames(GDPC1) &lt;- \"US Real GDP\"\nnames(PCEPILFE) &lt;- \"Core PCE\"\nnames(FEDFUNDS) &lt;- \"FED Rate\""
+  },
+  {
+    "objectID": "posts/Time Series in R/index.html#footnotes",
+    "href": "posts/Time Series in R/index.html#footnotes",
+    "title": "Time Series in R: Quick Reference",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nFor more information check the official web site and these other useful sites: site 1, site 2 and site 3.↩︎\nOrganisation for Economic Co-operation and Development, for more information check the web site.↩︎"
+  },
+  {
+    "objectID": "posts/Time Series in R/blog_TS_in_R.html",
+    "href": "posts/Time Series in R/blog_TS_in_R.html",
+    "title": "Time Series in R: Quick Reference",
+    "section": "",
+    "text": "These functions reads a file without a TS structure and then defines the TS object.\n\n# Read from a raw csv file\nraw.data &lt;- read.table(\"./data/data.us.csv\", sep = \",\", header = T)\n\n# When you have the dates in the original csv file\nxts.data &lt;- xts(raw.data, order.by = as.Date(raw.data$date, \"%m/%d/%Y\"))\n\n# When you don't have the dates in the original csv file but know the starting date\ndate = seq(as.Date(\"1960/3/1\"), by = \"3 month\", length.out = nrow(raw.data))\nxts.data &lt;- xts(raw.data[,-1], order.by = date, frequency = 3)\n\nThis function reads and declares the TS structure from the begining.\n\n# Note that this is a TS with a zoo structure\nts.data &lt;- read.zoo(\"./data/data.us.csv\", index.column = 1, sep = \",\", header = T, format = \"%m/%d/%Y\")\n# Or...\nts.data &lt;- ts(raw.data[,2:4], frequency = 4, start = c(1960,1))\n\n# One can convert the TS-zoo into a xts...\nxts.data &lt;- as.xts(ts.data)\n\n\n\n\n\nThere are two main ways to get data into R: get the data into Excel or a csv or download for an online source. There are built-in package to get the data directly for the web in a predefined format. The table below shows the most popular sources and packages that one can use.\n\n\n\nSources\nR-Package\nWeb Pages\n\n\n\n\nYahoo, FRED, Google, Onda\nquantmod\nLink\n\n\nInternational Monetary Fund (IMF)1\nIMFData or imfr\nLink\n\n\nWorld Bank’s WDI\nWDI\nLink\n\n\nOECD2\nrsdmx\nLink\n\n\nPenn World Tables\npwt\nLink\n\n\nInternational Labor Organization (ILO)\nrsdmx\nLink\n\n\n\nOne can use the getSymbols function with a previous search in the web pages and download directly into R.\n\ngetSymbols(\"GDPC1\", src = \"FRED\")\ngetSymbols(\"PCEPILFE\", src = \"FRED\")\ngetSymbols(\"FEDFUNDS\", src = \"FRED\")\n\nnames(GDPC1) &lt;- \"US Real GDP\"\nnames(PCEPILFE) &lt;- \"Core PCE\"\nnames(FEDFUNDS) &lt;- \"FED Rate\""
+  },
+  {
+    "objectID": "posts/Time Series in R/blog_TS_in_R.html#footnotes",
+    "href": "posts/Time Series in R/blog_TS_in_R.html#footnotes",
+    "title": "Time Series in R: Quick Reference",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nFor more information check the official web site and these other useful sites: site 1, site 2 and site 3.↩︎\nOrganisation for Economic Co-operation and Development, for more information check the web site.↩︎"
   }
 ]
