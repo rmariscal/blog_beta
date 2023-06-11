@@ -86,7 +86,7 @@ xts.data <- as.xts(ts.data)
 There are two main ways to get data into R: get the data into `Excel` or a `csv` or download for an online source. There are built-in package to get the data directly for the web in a predefined format. The table below shows the most popular sources and packages that one can use.
 
 | Sources                                                                                                                                   | R-Package           | Web Pages                                  |
-|----------------------------|--------------------|------------------------|
+|-------------------------------------------------------------------------------------------------------------------------------------------|---------------------|--------------------------------------------|
 | [Yahoo](https://finance.yahoo.com/), [FRED](https://fred.stlouisfed.org/), [Google](https://goo.gl/CmY1Mg), [Onda](https://goo.gl/zJL1PJ) | `quantmod`          | [Link](https://www.quantmod.com/)          |
 | International Monetary Fund (IMF)[^1]                                                                                                     | `IMFData` or `imfr` | [Link](http://www.imf.org/en/data)         |
 | World Bank's WDI                                                                                                                          | `WDI`               | [Link](http://databank.worldbank.org/data) |
@@ -198,7 +198,7 @@ ggplot() +
 ##### **Basic Function Transformations**
 
 | Transformation                                                           | Command                       |
-|-----------------------------------------------------|-------------------|
+|--------------------------------------------------------------------------|-------------------------------|
 | Logarithm                                                                | `log(y)`                      |
 | Lag: $L^{n} y_{t} = y_{t-1}$                                             | `lag(y,n)`                    |
 | Difference: $\Delta y_{t} = y_{t} - y_{t-1}$                             | `diff(y)`                     |
