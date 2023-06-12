@@ -20,7 +20,7 @@ website:
     foreground: "success"
     right:
       - href: about.qmd
-        text: About @RodMariscal
+        text: About
       - href: econ_share.qmd
         text: Share code
 format:

@@ -13,4 +13,4 @@ page-layout: full
 title-block-banner: true
 ---
 
-![Wassily Kandinsky - Composition VII](images/Wassily-Kandinsky-The-State-Tretyakov.jpg){width="566"}
+![Wassily Kandinsky - Composition VII](images/Wassily-Kandinsky-The-State-Tretyakov.jpg){width="787"}

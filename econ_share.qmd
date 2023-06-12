@@ -2,8 +2,8 @@
 title: "Econ-Share"
 image: img/code.jpg
 about:
-  template: trestles
-  #template: solana
+  #template: trestles
+  template: solana
   #template: marquee
   #template: broadside
   #template: jolla
