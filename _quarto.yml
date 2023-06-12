@@ -19,11 +19,10 @@ website:
     background: "dark"
     foreground: "success"
     right:
-      - about.qmd
-      - icon: github
-        href: https://github.com/rmariscal
-      - icon: twitter
-        href: https://twitter.com/RodMariscal
+      - href: about.qmd
+        text: About @RodMariscal
+      - href: econ_share.qmd
+        text: Share code
 format:
   html:
     theme: darkly

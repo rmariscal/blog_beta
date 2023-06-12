@@ -1,0 +1,27 @@
+---
+title: "Econ-Share"
+image: img/code.jpg
+about:
+  template: trestles
+  #template: solana
+  #template: marquee
+  #template: broadside
+  #template: jolla
+  #links:
+    #- icon: twitter
+      #text: Twitter
+      #href: https://twitter.com/RodMariscal
+    #- icon: linkedin
+      #text: LinkedIn
+      #href: https://www.linkedin.com/in/rmariscal/
+    #- icon: github
+      #text: Github
+      #href: https://github.com/rmariscal
+---
+
+------------------------------------------------------------------------
+
+## R code
+
+-   Hodrick-Prescott Filter with Tail Correction: [here](https://github.com/rmariscal/Econ-share/blob/master/hptc_fun_q.R)
+

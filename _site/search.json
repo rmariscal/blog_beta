@@ -75,5 +75,12 @@
     "title": "Time Series in R: Quick Reference",
     "section": "Footnotes",
     "text": "Footnotes\n\n\nFor more information check the official web site and these other useful sites: site 1, site 2 and site 3.↩︎\nOrganisation for Economic Co-operation and Development, for more information check the web site.↩︎"
+  },
+  {
+    "objectID": "econ_share.html#r-code",
+    "href": "econ_share.html#r-code",
+    "title": "Econ-Share",
+    "section": "R code",
+    "text": "R code\n\nHodrick-Prescott Filter with Tail Correction: here"
   }
 ]
