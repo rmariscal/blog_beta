@@ -10,7 +10,109 @@
 <atom:link href="http://rodmariscal.com/index.xml" rel="self" type="application/rss+xml"/>
 <description>My personal web page and blog</description>
 <generator>quarto-1.3.361</generator>
-<lastBuildDate>Tue, 26 Jun 2018 21:12:36 GMT</lastBuildDate>
+<lastBuildDate>Sun, 30 Sep 2018 21:12:36 GMT</lastBuildDate>
+<item>
+  <title>The Natural Interest Rate and the Taylor Rule Prescription</title>
+  <dc:creator>Rodrigo Mariscal</dc:creator>
+  <link>http://rodmariscal.com/posts/Taylor Rule/blog_Taylor_Rule.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="monetary-stance-in-the-u.s." class="level3">
+<h3 class="anchored" data-anchor-id="monetary-stance-in-the-u.s.">Monetary Stance in the U.S.</h3>
+<hr>
+<section id="the-natural-interest-rate-r-star" class="level5">
+<h5 class="anchored" data-anchor-id="the-natural-interest-rate-r-star"><strong>The Natural Interest Rate (R-Star)</strong></h5>
+<p>The natural interest rate or r-star is commonly defied as the long-term interest rate such that monetary policy is consistent sustained maximum employment and inflation at its longer-run objective.<sup>1</sup> Also it’s sometimes defined as the interest rate that would preveil in a steady state where prices are fully flexible and inflation is zero (Woodford, 2003). However, the approach that I will take here is the one put forward by Holston, Lauback and Williams (2017) which is more an equilibrium concept that uses a time series approach.</p>
+<p>It’s imporant to note that this <img src="https://latex.codecogs.com/png.latex?r_%7Bt%7D%5E%7B*%7D"> variable is attached to slow-moving forces that hardly change except when there is a big disruption in the economy. As an example, these are the forces that can affect the natural interest rate:</p>
+<ul>
+<li>Changes in labor productivity that affect the amount of labor supplied or the return on investment</li>
+<li>Household’s desire to save or to realocate current consumption from the future</li>
+<li>Public debt or government consumption that affect the use of aggregate savings in the economy</li>
+<li>Capital flows, that is, the amount of financial resources coming from the rest of the world</li>
+<li>The risk premia that the savers would like to received in return for their borrowed assets</li>
+</ul>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="http://rodmariscal.com/posts/Taylor Rule/blog_Taylor_Rule_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid" width="576"></p>
+</div>
+</div>
+</section>
+</section>
+<section id="monetary-policy-rules" class="level3">
+<h3 class="anchored" data-anchor-id="monetary-policy-rules">Monetary Policy Rules</h3>
+<hr>
+<table class="table">
+<colgroup>
+<col style="width: 27%">
+<col style="width: 72%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Policy Rules</th>
+<th>Formula</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Taylor Rule</td>
+<td><img src="https://latex.codecogs.com/png.latex?R_t%5ET%20=%20r_t%5E%7B*%7D%20+%20%5Cpi_t%20+%200.5(%5Cpi_t%20-%20%5Cpi%5E%7B*%7D)%20+%200.5(y_t%20-%20y_t%5EP)"></td>
+</tr>
+<tr class="even">
+<td>Inertial rule</td>
+<td><img src="https://latex.codecogs.com/png.latex?R_t%5EI%20=%200.85R_%7Bt-1%7D%20+%200.15%5Br_t%5E%7B*%7D%20+%20%5Cpi_t%20+%200.5(%5Cpi_t%20-%20%5Cpi%5E%7B*%7D)%20+%20(y_t%20-%20y_t%5EP)%5D"></td>
+</tr>
+<tr class="odd">
+<td>Balanced-approach rule</td>
+<td><img src="https://latex.codecogs.com/png.latex?R_t%5E%7BBA%7D%20=%20r_t%5E%7B*%7D%20+%20%5Cpi_t%20+%200.5(%5Cpi_t%20-%20%5Cpi%5E%7B*%7D)%20+%20(y_t%20-%20y_t%5EP)"></td>
+</tr>
+<tr class="even">
+<td>ELB-adjusted rule</td>
+<td><img src="https://latex.codecogs.com/png.latex?R_t%5E%7BELB%7D%20=%20max%5C%7B%20R_%7Bt-1%7D%5E%7BBA%7D%20-%20Z_t,%200%20%5C%7D"></td>
+</tr>
+<tr class="odd">
+<td>First-difference rule</td>
+<td><img src="https://latex.codecogs.com/png.latex?R_t%5E%7BFD%7D%20=%20R_%7Bt-1%7D%20+%200.1(%5Cpi_t%20-%20%5Cpi%5E*)%20+%200.1(y_t%20-%20y_%7Bt-4%7D)"></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="taylor-rule-inertial" class="level3">
+<h3 class="anchored" data-anchor-id="taylor-rule-inertial">Taylor Rule (inertial)</h3>
+<hr>
+<p>The Taylor Rule originally proposed by John B. Taylor is a prescription for the level of federal funds rate such that the monetary policy supports price stability and sustain GDP growth. The general formulation of the rule is the following:</p>
+<p><img src="https://latex.codecogs.com/png.latex?R%5E%7BT%7D_%7Bt%7D%20=%20%5Crho%20R%5E%7BT%7D_%7Bt-1%7D%20+%20(1%20-%20%5Crho)%20%5B%20r%5E%7B*%7D%20+%20%5Cbar%7B%5Cpi%7D_t%20+%20%5Cbeta%20(%20%5Cpi_%7Bt%7D%20-%20%5Cbar%7B%5Cpi%7D_t%20)%20+%20%5Cgamma%20x_%7Bt%7D%20%5D,"></p>
+<p>where <img src="https://latex.codecogs.com/png.latex?R%5E%7BT%7D_%7Bt%7D"> is the federal funds prescribed rate in quarter t, <img src="https://latex.codecogs.com/png.latex?r_t%5E%7B*%7D"> is the natural interest rate estimated above, <img src="https://latex.codecogs.com/png.latex?%5Cpi_%7Bt%7D"> is the four-quarter inflation rate, <img src="https://latex.codecogs.com/png.latex?%5Cbar%7B%5Cpi%7D_t"> is the central bank’s objective for inflation, and <img src="https://latex.codecogs.com/png.latex?x_%7Bt%7D"> measures the percentage difference of GDP from its potential level or output gap. The <img src="https://latex.codecogs.com/png.latex?%5Crho"> parameter is a measure of persistence that smooths the series to make gradual adjustments in the policy rate, <img src="https://latex.codecogs.com/png.latex?%5Cbeta"> is the weight on the inflation gap and <img src="https://latex.codecogs.com/png.latex?%5Cgamma"> the weight on the output gap.</p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="http://rodmariscal.com/posts/Taylor Rule/blog_Taylor_Rule_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid" width="576"></p>
+</div>
+</div>
+</section>
+<section id="references" class="level3">
+<h3 class="anchored" data-anchor-id="references">References</h3>
+<p>Federal Reserve Board of Governors. 2018. ‘’Monetary Policy Principles and Practice,’’, Federal Reserve Board, <a href="https://www.federalreserve.gov/monetarypolicy/monetary-policy-principles-and-practice.htm">web site</a>.</p>
+<p>Federal Reserve Board of Governors. 2017. ‘’Monetary Policy Report - July 2017’’, Federal Reserve Board, <a href="https://www.federalreserve.gov/monetarypolicy/files/20170707_mprfullreport.pdf#page=42">web site</a>.</p>
+<p>Federal Reserve Bank of New York. 2018. ‘’Measuring the Natural Rate of Interest,’’ <a href="https://www.newyorkfed.org/research/policy/rstar/overview">web site</a>.</p>
+<p>Holston, Laubach, and Williams. 2017. ‘’Measuring the Natural Rate of Interest: International Trends and Determinants,’’ Journal of International Economics 108, supplement 1 (May): S39-S75.</p>
+<p>Woodford, M. 2003. Interest and Prices Foundations of a Theory of Monetary Policy. Princeton University Press, Princeton.</p>
+
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>Federal Reserve Board of Governors. 2018. ‘’Monetary Policy Report - February 2018’’, Federal Reserve Board, <a href="https://www.federalreserve.gov/monetarypolicy/2018-02-mpr-part2.htm">web site</a>.↩︎</p></li>
+</ol>
+</section></div> ]]></description>
+  <category>Economics</category>
+  <guid>http://rodmariscal.com/posts/Taylor Rule/blog_Taylor_Rule.html</guid>
+  <pubDate>Sun, 30 Sep 2018 21:12:36 GMT</pubDate>
+</item>
 <item>
   <title>Time Series in R: Quick Reference</title>
   <link>http://rodmariscal.com/posts/Time Series in R/blog_TS_in_R.html</link>

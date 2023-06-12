@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/Taylor Rule/blog_Taylor_Rule.html",
       "/posts/Time Series in R/blog_TS_in_R.html"
     ]
   }

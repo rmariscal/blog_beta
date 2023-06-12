@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Personal Web Page",
     "section": "",
-    "text": "Wassily Kandinsky - Composition VII\n\n\n\n\n\n\n\n\n\n\n  \n\n\n\n\nTime Series in R: Quick Reference\n\n\n\n\n\n\n\nR\n\n\n\n\n\n\n\n\n\n\n\nJun 26, 2018\n\n\n\n\n\n\nNo matching items"
+    "text": "Wassily Kandinsky - Composition VII\n\n\n\n\n\n\n\n\n\n\n  \n\n\n\n\nThe Natural Interest Rate and the Taylor Rule Prescription\n\n\n\n\n\n\n\nEconomics\n\n\n\n\n\n\n\n\n\n\n\nSep 30, 2018\n\n\nRodrigo Mariscal\n\n\n\n\n\n\n  \n\n\n\n\nTime Series in R: Quick Reference\n\n\n\n\n\n\n\nR\n\n\n\n\n\n\n\n\n\n\n\nJun 26, 2018\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -82,5 +82,19 @@
     "title": "Econ-Share",
     "section": "R code",
     "text": "R code\n\nHodrick-Prescott Filter with Tail Correction: here"
+  },
+  {
+    "objectID": "posts/Taylor Rule/blog_Taylor_Rule.html",
+    "href": "posts/Taylor Rule/blog_Taylor_Rule.html",
+    "title": "The Natural Interest Rate and the Taylor Rule Prescription",
+    "section": "",
+    "text": "The natural interest rate or r-star is commonly defied as the long-term interest rate such that monetary policy is consistent sustained maximum employment and inflation at its longer-run objective.1 Also it’s sometimes defined as the interest rate that would preveil in a steady state where prices are fully flexible and inflation is zero (Woodford, 2003). However, the approach that I will take here is the one put forward by Holston, Lauback and Williams (2017) which is more an equilibrium concept that uses a time series approach.\nIt’s imporant to note that this \\(r_{t}^{*}\\) variable is attached to slow-moving forces that hardly change except when there is a big disruption in the economy. As an example, these are the forces that can affect the natural interest rate:\n\nChanges in labor productivity that affect the amount of labor supplied or the return on investment\nHousehold’s desire to save or to realocate current consumption from the future\nPublic debt or government consumption that affect the use of aggregate savings in the economy\nCapital flows, that is, the amount of financial resources coming from the rest of the world\nThe risk premia that the savers would like to received in return for their borrowed assets"
+  },
+  {
+    "objectID": "posts/Taylor Rule/blog_Taylor_Rule.html#footnotes",
+    "href": "posts/Taylor Rule/blog_Taylor_Rule.html#footnotes",
+    "title": "The Natural Interest Rate and the Taylor Rule Prescription",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nFederal Reserve Board of Governors. 2018. ‘’Monetary Policy Report - February 2018’’, Federal Reserve Board, web site.↩︎"
   }
 ]
