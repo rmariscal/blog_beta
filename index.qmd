@@ -13,6 +13,4 @@ page-layout: full
 title-block-banner: true
 ---
 
-![](img/leaves.png){width="454"}
-
-------------------------------------------------------------------------
+![Wassily Kandinsky - Composition VII](images/Wassily-Kandinsky-The-State-Tretyakov.jpg){width="566"}
