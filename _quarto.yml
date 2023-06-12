@@ -22,7 +22,7 @@ website:
       - href: about.qmd
         text: About
       - href: econ_share.qmd
-        text: Share code
+        text: Code
 format:
   html:
     theme: darkly
