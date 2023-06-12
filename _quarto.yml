@@ -8,10 +8,12 @@ website:
   page-footer:
     left: "The views in this website are exclusively my own and do not necessary represent the views of my colleagues or the institution in which I work."
     right:
+      - icon: twitter
+        href: https://twitter.com/RodMariscal
+      - icon: linkedin
+        href: https://www.linkedin.com/in/rmariscal/
       - icon: github
         href: https://github.com/rmariscal
-      - icon: twitter
-        href: hhttps://twitter.com/RodMariscal
       - icon: envelope
         href: mailto:milz.bea@gmail.com
   navbar:
