@@ -81,7 +81,7 @@
     "href": "econ_share.html#r-code",
     "title": "Econ-Share",
     "section": "R code",
-    "text": "R code\n\nHodrick-Prescott Filter with Tail Correction: here"
+    "text": "R code\n\nHodrick-Prescott Filter with Tail Correction. here"
   },
   {
     "objectID": "posts/Taylor Rule/blog_Taylor_Rule.html",
@@ -96,5 +96,12 @@
     "title": "The Natural Interest Rate and the Taylor Rule Prescription",
     "section": "Footnotes",
     "text": "Footnotes\n\n\nFederal Reserve Board of Governors. 2018. ‘’Monetary Policy Report - February 2018’’, Federal Reserve Board, web site.↩︎"
+  },
+  {
+    "objectID": "econ_share.html#matlab-dynare",
+    "href": "econ_share.html#matlab-dynare",
+    "title": "Econ-Share",
+    "section": "Matlab / Dynare",
+    "text": "Matlab / Dynare\n\nReplicate CGG 2000 simulation model with Dynare. here"
   }
 ]

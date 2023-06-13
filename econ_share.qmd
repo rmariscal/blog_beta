@@ -23,5 +23,10 @@ about:
 
 ## R code
 
--   Hodrick-Prescott Filter with Tail Correction: [here](https://github.com/rmariscal/Econ-share/blob/master/hptc_fun_q.R)
+-   Hodrick-Prescott Filter with Tail Correction. [here](https://github.com/rmariscal/Econ-share/blob/master/hptc_fun_q.R)
 
+------------------------------------------------------------------------
+
+## Matlab / Dynare
+
+-   Replicate [CGG 2000](https://www.jstor.org/stable/2586937) simulation model with Dynare. [here](https://github.com/rmariscal/Econ-share/blob/master/main_cgg00.m)
