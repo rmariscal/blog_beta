@@ -5,6 +5,7 @@ website:
   title: "Rodrigo Mariscal"
   site-url: "http://rodmariscal.com/"
   description: "My personal web page and blog"
+  open-graph: true
   page-footer:
     left: "The views in this website are exclusively my own and do not necessary represent the views of my colleagues or the institution in which I work."
     right:
