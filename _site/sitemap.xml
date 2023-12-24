@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://rodmariscal.com/index.html</loc>
-    <lastmod>2023-06-13T18:09:44.188Z</lastmod>
+    <lastmod>2023-12-24T21:32:14.882Z</lastmod>
   </url>
   <url>
     <loc>http://rodmariscal.com/about.html</loc>
@@ -34,6 +34,10 @@
   </url>
   <url>
     <loc>http://rodmariscal.com/posts/Taylor Rule/blog_Taylor_Rule.html</loc>
-    <lastmod>2023-06-12T02:23:12.453Z</lastmod>
+    <lastmod>2023-12-24T21:32:18.543Z</lastmod>
+  </url>
+  <url>
+    <loc>http://rodmariscal.com/posts/MFMP Quanto/MEX_Hacienda_MFMP_v231103.html</loc>
+    <lastmod>2023-12-24T21:32:37.979Z</lastmod>
   </url>
 </urlset>

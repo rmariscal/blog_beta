@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Personal Web Page",
     "section": "",
-    "text": "Wassily Kandinsky - Composition VII\n\n\n\n\n\n\n\n\n\n\n  \n\n\n\n\nThe Natural Interest Rate and the Taylor Rule Prescription\n\n\n\n\n\n\n\nEconomics\n\n\n\n\n\n\n\n\n\n\n\nSep 30, 2018\n\n\nRodrigo Mariscal\n\n\n\n\n\n\n  \n\n\n\n\nTime Series in R: Quick Reference\n\n\n\n\n\n\n\nR\n\n\n\n\n\n\n\n\n\n\n\nJun 26, 2018\n\n\n\n\n\n\nNo matching items"
+    "text": "Wassily Kandinsky - Composition VII\n\n\n\n\n\n\n\n\n\n\n  \n\n\n\n\nMarcos Fiscales de Mediano Plazo\n\n\nLa Experiencia de México\n\n\n\n\n\n\n\n\n\nRodrigo Mariscal\n\n\n\n\n\n\n  \n\n\n\n\nThe Natural Interest Rate and the Taylor Rule Prescription\n\n\n\n\n\n\n\nEconomics\n\n\n\n\n\n\n\n\n\n\n\nSep 30, 2018\n\n\nRodrigo Mariscal\n\n\n\n\n\n\n  \n\n\n\n\nTime Series in R: Quick Reference\n\n\n\n\n\n\n\nR\n\n\n\n\n\n\n\n\n\n\n\nJun 26, 2018\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -103,5 +103,40 @@
     "title": "Econ-Share",
     "section": "Matlab / Dynare",
     "text": "Matlab / Dynare\n\nReplicate CGG 2000 simulation model with Dynare. here"
+  },
+  {
+    "objectID": "posts/MFMP Quanto/MEX_Hacienda_MFMP_v231103.html#marco-de-política-fiscal-de-méxico",
+    "href": "posts/MFMP Quanto/MEX_Hacienda_MFMP_v231103.html#marco-de-política-fiscal-de-méxico",
+    "title": "Marcos Fiscales de Mediano Plazo",
+    "section": "Marco de Política Fiscal de México",
+    "text": "Marco de Política Fiscal de México\n\nMarco Presupuestal\nMarco Normativo\nMarco Financiero"
+  },
+  {
+    "objectID": "posts/MFMP Quanto/MEX_Hacienda_MFMP_v231103.html#marco-de-política-fiscal-de-méxico-1",
+    "href": "posts/MFMP Quanto/MEX_Hacienda_MFMP_v231103.html#marco-de-política-fiscal-de-méxico-1",
+    "title": "Marcos Fiscales de Mediano Plazo",
+    "section": "Marco de Política Fiscal de México",
+    "text": "Marco de Política Fiscal de México\nMarco Presupuestal\n\n\nMarco macroeconómico sin consejo fiscal (fórmula para precio del petróleo)\nTres reglas fiscales (meta de balance, techo de gasto estructural, trayectoria de deuda neta)\nTecho de endeudamiento\n\n\n\nMarco Normativo\n\n\nLey de Presupuesto (estabilidad fiscal, reglas y excepciones)\nLey de Ingresos y Deuda Pública (control anual sobre las fuentes de ingreso)\nPresupuesto anual con aprobación del Congreso (distribución del gasto)\n\n\n\n\nMarco Financiero\n\n\nFondo, seguros y bonos contra desastres naturales\nCobertura petroleras y otras variables financieras\nFondos de estabilización contra caída de ingresos"
+  },
+  {
+    "objectID": "posts/MFMP Quanto/MEX_Hacienda_MFMP_v231103.html#marco-fiscal-de-mediano-plazo",
+    "href": "posts/MFMP Quanto/MEX_Hacienda_MFMP_v231103.html#marco-fiscal-de-mediano-plazo",
+    "title": "Marcos Fiscales de Mediano Plazo",
+    "section": "Marco Fiscal de Mediano Plazo",
+    "text": "Marco Fiscal de Mediano Plazo\nElementos del MFMP\n\n\nProyección de 5 años basada en estabilizar el ratio de deuda-PIB\nSe deriva de la regla fiscal de una trayectoria de deuda constante\nNo es vinculante y cada año se puede actualizar sin penalización\nAmortiguadores financieros ayudan a cumplir presupuesto anual\nEl entorno global aumenta los errores de pronóstico y desviaciones de las metas fiscales"
+  },
+  {
+    "objectID": "posts/MFMP Quanto/MEX_Hacienda_MFMP_v231103.html#marco-fiscal-de-mediano-plazo-1",
+    "href": "posts/MFMP Quanto/MEX_Hacienda_MFMP_v231103.html#marco-fiscal-de-mediano-plazo-1",
+    "title": "Marcos Fiscales de Mediano Plazo",
+    "section": "Marco Fiscal de Mediano Plazo",
+    "text": "Marco Fiscal de Mediano Plazo\nPrincipales Retos para profundizar el MFMP\n\n\nEconomía dependiente del exterior y de la renta petrolera\nEspacio limitado para política monetaria y fiscal contracíclica\nProyectos sexenales y necesidad de consenso amplio sobre proyectos de mediano plazo"
+  },
+  {
+    "objectID": "posts/MFMP Quanto/MEX_Hacienda_MFMP_v231103.html#como-mejorar-el-mfmp",
+    "href": "posts/MFMP Quanto/MEX_Hacienda_MFMP_v231103.html#como-mejorar-el-mfmp",
+    "title": "Marcos Fiscales de Mediano Plazo",
+    "section": "Como mejorar el MFMP",
+    "text": "Como mejorar el MFMP\nMarco Presupuestal\n\n\nReservar una partida de gasto para proyectos de largo plazo (e.g. infraestructura)\nNo aplicar a este gasto las reglas anuales\nExcluir del techo de endeudamiento (financiamiento multianual)\n\n\n\nMarco Legal\n\n\nLey de Infraestructura Pública\nLey de coordinación del gasto multianual con Entidades\nPresupuesto multianual aprobado por el Congreso\n\n\n\n\nMarco Financiero\n\n\nProyecto de financiamiento\nEvaluación de impacto y pasivos contingentes\nReserva de efectivo, lineas de crédito y garantías\n\n\n\n\n\nNota: el contenido de esta presentación es responsabilidad exclusiva del autor."
   }
 ]
