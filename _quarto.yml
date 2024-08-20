@@ -7,7 +7,7 @@ website:
   description: "My personal web page and blog"
   open-graph: true
   page-footer:
-    left: "The views in this website are exclusively my own and do not necessary represent the views of my colleagues or the institution in which I work."
+    left: "The views in this website are exclusively my own and do not, in any way, reflect or represent the official positions, policies, or opinions of the institution in which I work."
     right:
       - icon: twitter
         href: https://twitter.com/RodMariscal
